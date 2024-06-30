@@ -11,6 +11,8 @@
 		D98C4B342C317BAB0010CA2D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C4B332C317BAB0010CA2D /* ContentView.swift */; };
 		D98C4B362C317BAD0010CA2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98C4B352C317BAD0010CA2D /* Assets.xcassets */; };
 		D98C4B392C317BAD0010CA2D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98C4B382C317BAD0010CA2D /* Preview Assets.xcassets */; };
+		D98C4B412C317BF00010CA2D /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C4B3F2C317BF00010CA2D /* Tab.swift */; };
+		D98C4B442C317BF40010CA2D /* ButtonShettHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C4B422C317BF40010CA2D /* ButtonShettHelpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		D98C4B332C317BAB0010CA2D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D98C4B352C317BAD0010CA2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D98C4B382C317BAD0010CA2D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D98C4B3F2C317BF00010CA2D /* Tab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		D98C4B422C317BF40010CA2D /* ButtonShettHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonShettHelpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,8 @@
 		D98C4B302C317BAB0010CA2D /* MapKit3 */ = {
 			isa = PBXGroup;
 			children = (
+				D98C4B432C317BF40010CA2D /* Helpers */,
+				D98C4B402C317BF00010CA2D /* Model */,
 				D98C4B312C317BAB0010CA2D /* MapKit3App.swift */,
 				D98C4B332C317BAB0010CA2D /* ContentView.swift */,
 				D98C4B352C317BAD0010CA2D /* Assets.xcassets */,
@@ -65,6 +71,22 @@
 				D98C4B382C317BAD0010CA2D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D98C4B402C317BF00010CA2D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D98C4B3F2C317BF00010CA2D /* Tab.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D98C4B432C317BF40010CA2D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D98C4B422C317BF40010CA2D /* ButtonShettHelpers.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +159,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D98C4B412C317BF00010CA2D /* Tab.swift in Sources */,
 				D98C4B342C317BAB0010CA2D /* ContentView.swift in Sources */,
+				D98C4B442C317BF40010CA2D /* ButtonShettHelpers.swift in Sources */,
 				D98C4B322C317BAB0010CA2D /* MapKit3App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
