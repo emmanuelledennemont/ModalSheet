@@ -12,6 +12,7 @@
 		D98C4B362C317BAD0010CA2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98C4B352C317BAD0010CA2D /* Assets.xcassets */; };
 		D98C4B392C317BAD0010CA2D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98C4B382C317BAD0010CA2D /* Preview Assets.xcassets */; };
 		D98C4B442C317BF40010CA2D /* ButtonShettHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C4B422C317BF40010CA2D /* ButtonShettHelpers.swift */; };
+		D98C4B472C3528040010CA2D /* BottomSheet in Frameworks */ = {isa = PBXBuildFile; productRef = D98C4B462C3528040010CA2D /* BottomSheet */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D98C4B472C3528040010CA2D /* BottomSheet in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +96,9 @@
 			dependencies = (
 			);
 			name = MapKit3;
+			packageProductDependencies = (
+				D98C4B462C3528040010CA2D /* BottomSheet */,
+			);
 			productName = MapKit3;
 			productReference = D98C4B2E2C317BAB0010CA2D /* MapKit3.app */;
 			productType = "com.apple.product-type.application";
@@ -122,6 +127,9 @@
 				Base,
 			);
 			mainGroup = D98C4B252C317BAB0010CA2D;
+			packageReferences = (
+				D98C4B452C3528040010CA2D /* XCRemoteSwiftPackageReference "BottomSheet" */,
+			);
 			productRefGroup = D98C4B2F2C317BAB0010CA2D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -354,6 +362,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D98C4B452C3528040010CA2D /* XCRemoteSwiftPackageReference "BottomSheet" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lucaszischka/BottomSheet";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D98C4B462C3528040010CA2D /* BottomSheet */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D98C4B452C3528040010CA2D /* XCRemoteSwiftPackageReference "BottomSheet" */;
+			productName = BottomSheet;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D98C4B262C317BAB0010CA2D /* Project object */;
 }
